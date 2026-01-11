@@ -516,7 +516,7 @@
         }
     </style>
 
-    
+    <script src="https://cdn.c360a.salesforce.com/beacon/c360a/730b3d6e-f3f4-4c3b-82fa-f7a6ec317ad2/scripts/c360a.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -602,7 +602,7 @@
                     </div>
                 </div>
                 
-                <div class="property-card">
+                <div class="property-card" onclick={handlePropertyClick}>
                     <div class="property-image">Downtown Penthouse</div>
                     <div class="property-details">
                         <div class="property-price">$2,100,000</div>
@@ -1321,6 +1321,7 @@
             const navLinks = document.querySelector('.nav-links');
             navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
         });
+
     </script>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
